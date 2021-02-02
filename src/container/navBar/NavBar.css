@@ -1,0 +1,12 @@
+.navBar.navbar-expand{
+  justify-content: space-between;
+}
+
+.logo{
+  height: 40px;
+}
+
+.logout{
+  margin: 10px;
+  font-size: 1.5rem;
+}

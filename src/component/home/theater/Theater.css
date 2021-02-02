@@ -1,0 +1,89 @@
+.occupiedSeat{
+  color: grey
+}
+
+.occupiedSeat svg, .occupiedSeat .seat-number{
+  cursor: default;
+}
+
+.selectedSeat svg, .selectedSeat .seat-number, .unOccupiedseat svg, .unOccupiedseat .seat-number{
+  cursor: pointer;
+}
+
+.selectedSeat svg{
+  color: green;
+}
+
+.unOccupiedseat svg{
+  color: white;
+}
+
+.unOccupiedseat .seat-number{
+  color: black;
+}
+
+.seat {
+  margin: 5px;
+  font-size: 2rem;
+}
+
+.single-seat{
+  position: relative;
+}
+
+.seat-wrapper{
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.seat-number{
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.home .seat-rows.I .single-seat .seat-number{
+  left: 17px;
+}
+
+.home .seat-rows .single-seat:last-child .seat-number{
+  top: 7px;
+  left: 13px;
+}
+
+.empty-space{
+  padding: 20px;
+}
+
+.seat-rows {
+  justify-content: center;
+}
+
+@media (max-width: 768px){
+  .seat {
+    margin: 3px;
+    font-size: 1.7rem;
+  }
+  .seat-number {
+    top: 3px;
+    left: 9px;
+  }
+  .home .seat-rows .single-seat:last-child .seat-number {
+    top: 2px;
+    left: 7px;
+  }
+  .home .seat-rows.I .single-seat .seat-number {
+    left: 11px;
+  }
+  .empty-space{
+    padding: 10px;
+  }
+  .seat-wrapper {
+    margin: 20px 0;
+  }
+  .home .seat-rows.I .single-seat .seat-number{
+    left: 10px;
+  }
+}
