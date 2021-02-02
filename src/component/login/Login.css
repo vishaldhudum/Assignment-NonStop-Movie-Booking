@@ -11,6 +11,13 @@
   flex-grow: 1;
 }
 
+.login .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .login {
   padding-bottom: 210px;
 }

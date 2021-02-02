@@ -56,7 +56,7 @@ function Login(props) {
   return (
     <div className="login">
       <Container>
-        <Row className="justify-content-md-center">
+        <Row className="">
           <Col xs sm="6" lg="5">
             <Form onSubmit={handleSubmit}>
               <InputField

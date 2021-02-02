@@ -63,8 +63,8 @@
 
 @media (max-width: 768px){
   .seat {
-    margin: 3px;
-    font-size: 1.7rem;
+    margin: 2px;
+    font-size: 1.5rem;
   }
   .seat-number {
     top: 3px;
